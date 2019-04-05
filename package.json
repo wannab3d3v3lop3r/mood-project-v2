@@ -1,0 +1,24 @@
+{
+  "name": "mood-project",
+  "version": "1.0.0",
+  "description": "an app that allows users to tell any information about their mood on a displayed calendar and their journal posts",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "Chris Vo",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^6.0.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10"
+  }
+}
